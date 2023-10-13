@@ -1,0 +1,9 @@
+V3 6
+FL D:/vhdl/MUX/MUX4to1.vhd 2020/10/07.10:06:31 P.20131013
+EN work/MUX4to1 1602052597 FL D:/vhdl/MUX/MUX4to1.vhd PB ieee/std_logic_1164 1381692176
+AR work/MUX4to1/Behavioral 1602052598 \
+      FL D:/vhdl/MUX/MUX4to1.vhd EN work/MUX4to1 1602052597
+FL D:/vhdl/MUX/mux4to1_en.vhd 2020/10/07.12:02:40 P.20131013
+EN work/mux4to1_en 1602059678 FL D:/vhdl/MUX/mux4to1_en.vhd PB ieee/std_logic_1164 1381692176
+AR work/mux4to1_en/Behavioral 1602059679 \
+      FL D:/vhdl/MUX/mux4to1_en.vhd EN work/mux4to1_en 1602059678

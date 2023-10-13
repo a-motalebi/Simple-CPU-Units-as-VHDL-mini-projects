@@ -1,0 +1,9 @@
+V3 7
+FL D:/vhdl/FS/FA.vhd 2020/10/08.02:32:16 P.20131013
+EN work/FA1bit 1602112659 FL D:/vhdl/FS/FA.vhd PB ieee/std_logic_1164 1381692176
+AR work/FA1bit/Behavioral 1602112660 \
+      FL D:/vhdl/FS/FA.vhd EN work/FA1bit 1602112659
+FL D:/vhdl/FS/S4bit.vhd 2020/10/08.02:47:16 P.20131013
+EN work/S4bit 1602112661 FL D:/vhdl/FS/S4bit.vhd PB ieee/std_logic_1164 1381692176
+AR work/S4bit/Behavioral 1602112662 \
+      FL D:/vhdl/FS/S4bit.vhd EN work/S4bit 1602112661 CP FA1bit

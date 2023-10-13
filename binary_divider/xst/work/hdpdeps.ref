@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/binary_divider/binary_divider.vhd 2020/11/16.17:57:09 P.20131013
+EN work/binary_divider 1605537405 FL D:/vhdl/binary_divider/binary_divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/binary_divider/Behavioral 1605537406 \
+      FL D:/vhdl/binary_divider/binary_divider.vhd EN work/binary_divider 1605537405

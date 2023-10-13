@@ -1,0 +1,28 @@
+Command line:
+   selected_mux4to1_mux_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51187
+
+Fri Oct 16 19:18:08 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5165.01 Meg
+
+ Total Signals          : 9
+ Total Nets             : 11
+ Total Signal Drivers   : 4
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 3
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 494
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5479.58 Meg
+
+Fri Oct 16 19:18:49 2020
+

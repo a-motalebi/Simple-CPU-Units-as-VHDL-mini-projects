@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/ALU/ALU.vhd 2020/10/25.22:42:29 P.20131013
+EN work/ALU 1603653586 FL D:/vhdl/ALU/ALU.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/ALU/Behavioral 1603653587 \
+      FL D:/vhdl/ALU/ALU.vhd EN work/ALU 1603653586

@@ -1,0 +1,3 @@
+vhdl isim_temp "BRAM.vhd"
+vhdl isim_temp "example_ram.vhd"
+vhdl isim_temp "tb_example_ram.vhd"

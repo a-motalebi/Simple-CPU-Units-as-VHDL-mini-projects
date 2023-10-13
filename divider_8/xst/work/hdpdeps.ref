@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/divider_8/divider_8.vhd 2020/12/16.02:45:58 P.20131013
+EN work/divider_8 1608074160 FL D:/vhdl/divider_8/divider_8.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/divider_8/Behavioral 1608074161 \
+      FL D:/vhdl/divider_8/divider_8.vhd EN work/divider_8 1608074160

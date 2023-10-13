@@ -1,0 +1,4 @@
+vhdl isim_temp "enaibled_dec2to4.vhd"
+vhdl isim_temp "dec2to4.vhd"
+vhdl isim_temp "dec4to16.vhd"
+vhdl isim_temp "dec4to16tb.vhd"

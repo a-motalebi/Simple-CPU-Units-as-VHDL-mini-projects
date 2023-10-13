@@ -1,0 +1,4 @@
+work	"MUX2to1.vhd"
+work	"MUX32to1.vhd"
+work	"MUX4to1.vhd"
+work	"MUX8to1.vhd"

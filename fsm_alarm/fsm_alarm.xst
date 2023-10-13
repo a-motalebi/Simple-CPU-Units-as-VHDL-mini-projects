@@ -1,0 +1,5 @@
+set -tmpdir "D:/vhdl/fsm_alarm/xst/projnav.tmp"
+set -xsthdpdir "D:/vhdl/fsm_alarm/xst"
+elaborate
+-ifn fsm_alarm.prj
+-ifmt mixed

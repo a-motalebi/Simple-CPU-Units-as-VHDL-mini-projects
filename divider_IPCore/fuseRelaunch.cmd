@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/divider_IPCore/tb_isim_beh.exe" -prj "D:/vhdl/divider_IPCore/tb_beh.prj" "work.tb" 

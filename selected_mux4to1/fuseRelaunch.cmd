@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/selected_mux4to1/selected_mux4to1_mux_isim_beh.exe" -prj "D:/vhdl/selected_mux4to1/selected_mux4to1_mux_beh.prj" "work.selected_mux4to1_mux" 

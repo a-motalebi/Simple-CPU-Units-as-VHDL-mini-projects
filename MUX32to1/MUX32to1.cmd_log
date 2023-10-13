@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/vhdl/MUX32to1/MUX32to1.xst" -ofn "D:/vhdl/MUX32to1/MUX32to1.syr" 
+xst -intstyle ise -ifn "D:/vhdl/MUX32to1/MUX32to1.xst" -ofn "D:/vhdl/MUX32to1/MUX32to1.syr" 

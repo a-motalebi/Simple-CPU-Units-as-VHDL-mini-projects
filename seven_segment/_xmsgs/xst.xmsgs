@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/vhdl/seven_segment/seven_segment.vhd</arg>&quot; Line <arg fmt="%d" index="2">19</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">delay</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/vhdl/seven_segment/seven_segment.vhd</arg>&quot; Line <arg fmt="%d" index="2">19</arg>. <arg fmt="%s" index="3">delay</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="800" delta="new" >&quot;<arg fmt="%s" index="1">D:/vhdl/seven_segment/seven_segment.vhd</arg>&quot; Line <arg fmt="%d" index="2">25</arg>. Type of <arg fmt="%s" index="3">counter</arg> is incompatible with type of <arg fmt="%s" index="4">0</arg>.
+</msg>
+
+</messages>
+

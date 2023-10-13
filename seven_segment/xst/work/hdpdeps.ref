@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/seven_segment/seven_segment.vhd 2020/12/23.11:04:50 P.20131013
+EN work/seven_segment 1608708895 FL D:/vhdl/seven_segment/seven_segment.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/seven_segment/Behavioral 1608708896 \
+      FL D:/vhdl/seven_segment/seven_segment.vhd EN work/seven_segment 1608708895

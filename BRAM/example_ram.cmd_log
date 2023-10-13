@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/vhdl/BRAM/example_ram.xst" -ofn "D:/vhdl/BRAM/example_ram.syr" 

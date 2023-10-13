@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/fsm_alarm/tb_isim_beh.exe" -prj "D:/vhdl/fsm_alarm/tb_beh.prj" "work.tb" 

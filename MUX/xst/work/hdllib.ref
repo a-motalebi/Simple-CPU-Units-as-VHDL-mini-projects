@@ -1,0 +1,4 @@
+AR mux4to1_en behavioral D:/vhdl/MUX/mux4to1_en.vhd sub00/vhpl03 1602059679
+EN mux4to1 NULL D:/vhdl/MUX/MUX4to1.vhd sub00/vhpl00 1602052597
+AR mux4to1 behavioral D:/vhdl/MUX/MUX4to1.vhd sub00/vhpl01 1602052598
+EN mux4to1_en NULL D:/vhdl/MUX/mux4to1_en.vhd sub00/vhpl02 1602059678

@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/shift_reg_s1/shift_reg_s1.vhd 2020/10/30.03:27:07 P.20131013
+EN work/shift_reg_s1 1604345644 FL D:/vhdl/shift_reg_s1/shift_reg_s1.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/shift_reg_s1/Behavioral 1604345645 \
+      FL D:/vhdl/shift_reg_s1/shift_reg_s1.vhd EN work/shift_reg_s1 1604345644

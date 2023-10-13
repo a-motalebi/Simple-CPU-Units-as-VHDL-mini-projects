@@ -1,0 +1,8 @@
+EN mux2to1 NULL D:/vhdl/MUX32to1/MUX2to1.vhd sub00/vhpl00 1602681332
+AR mux2to1 behavioral D:/vhdl/MUX32to1/MUX2to1.vhd sub00/vhpl01 1602681333
+EN mux32to1 NULL D:/vhdl/MUX32to1/MUX32to1.vhd sub00/vhpl06 1602681338
+EN mux4to1 NULL D:/vhdl/MUX32to1/MUX4to1.vhd sub00/vhpl02 1602681334
+AR mux4to1 behavioral D:/vhdl/MUX32to1/MUX4to1.vhd sub00/vhpl03 1602681335
+AR mux32to1 behavioral D:/vhdl/MUX32to1/MUX32to1.vhd sub00/vhpl07 1602681339
+EN mux8to1 NULL D:/vhdl/MUX32to1/MUX8to1.vhd sub00/vhpl04 1602681336
+AR mux8to1 behavioral D:/vhdl/MUX32to1/MUX8to1.vhd sub00/vhpl05 1602681337

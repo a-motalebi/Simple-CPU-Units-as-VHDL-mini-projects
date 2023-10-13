@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/fsm_alarm/fsm_alarm.vhd 2020/12/13.20:16:01 P.20131013
+EN work/fsm_alarm 1607877970 FL D:/vhdl/fsm_alarm/fsm_alarm.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/fsm_alarm/Behavioral 1607877971 \
+      FL D:/vhdl/fsm_alarm/fsm_alarm.vhd EN work/fsm_alarm 1607877970

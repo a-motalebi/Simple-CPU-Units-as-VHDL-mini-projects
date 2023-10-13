@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/vhdl/clock_devider/clock_devider.xst" -ofn "D:/vhdl/clock_devider/clock_devider.syr" 

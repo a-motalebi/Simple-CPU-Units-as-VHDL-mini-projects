@@ -1,0 +1,5 @@
+set -tmpdir "D:/vhdl/BRAM/xst/projnav.tmp"
+set -xsthdpdir "D:/vhdl/BRAM/xst"
+elaborate
+-ifn BRAM.prj
+-ifmt mixed

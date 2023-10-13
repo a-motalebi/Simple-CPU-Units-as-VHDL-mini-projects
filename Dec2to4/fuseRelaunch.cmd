@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/Dec2to4/Dec4to16_tb_isim_beh.exe" -prj "D:/vhdl/Dec2to4/Dec4to16_tb_beh.prj" "work.Dec4to16_tb" 

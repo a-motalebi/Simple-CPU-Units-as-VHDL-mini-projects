@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/clock_devider/tb_isim_beh.exe" -prj "D:/vhdl/clock_devider/tb_beh.prj" "work.tb" 

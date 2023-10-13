@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/led/led.vhd 2020/11/05.01:58:15 P.20131013
+EN work/led 1604529332 FL D:/vhdl/led/led.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/led/Behavioral 1604529333 \
+      FL D:/vhdl/led/led.vhd EN work/led 1604529332

@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/shift_foorloop/shift_foorloop.vhd 2020/11/05.02:32:18 P.20131013
+EN work/shift_foorloop 1604530950 FL D:/vhdl/shift_foorloop/shift_foorloop.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/shift_foorloop/Behavioral 1604530951 \
+      FL D:/vhdl/shift_foorloop/shift_foorloop.vhd EN work/shift_foorloop 1604530950

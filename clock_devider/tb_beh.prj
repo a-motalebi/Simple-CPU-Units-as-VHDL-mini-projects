@@ -1,0 +1,2 @@
+vhdl work "clock_devider.vhd"
+vhdl work "tb.vhd"

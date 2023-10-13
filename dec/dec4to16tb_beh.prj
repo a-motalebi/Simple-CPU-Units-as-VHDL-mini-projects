@@ -1,0 +1,4 @@
+vhdl work "enaibled_dec2to4.vhd"
+vhdl work "dec2to4.vhd"
+vhdl work "dec4to16.vhd"
+vhdl work "dec4to16tb.vhd"

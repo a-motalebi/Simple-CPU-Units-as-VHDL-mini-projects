@@ -1,0 +1,12 @@
+V3 7
+FL D:/vhdl/COMPARATOR/comparator1bit.vhd 2020/10/14.07:45:55 P.20131013
+EN work/comparator1bit 1602663725 FL D:/vhdl/COMPARATOR/comparator1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparator1bit/Behavioral 1602663726 \
+      FL D:/vhdl/COMPARATOR/comparator1bit.vhd EN work/comparator1bit 1602663725
+FL D:/vhdl/COMPARATOR/comparator5bit.vhd 2020/10/14.08:03:48 P.20131013
+EN work/comparator5bit 1602663727 FL D:/vhdl/COMPARATOR/comparator5bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparator5bit/Behavioral 1602663728 \
+      FL D:/vhdl/COMPARATOR/comparator5bit.vhd EN work/comparator5bit 1602663727 \
+      CP comparator1bit

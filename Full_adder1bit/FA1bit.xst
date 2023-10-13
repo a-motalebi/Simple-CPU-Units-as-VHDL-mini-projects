@@ -1,0 +1,5 @@
+set -tmpdir "D:/vhdl/Fukk_adder1bit/xst/projnav.tmp"
+set -xsthdpdir "D:/vhdl/Fukk_adder1bit/xst"
+elaborate
+-ifn FA1bit.prj
+-ifmt mixed

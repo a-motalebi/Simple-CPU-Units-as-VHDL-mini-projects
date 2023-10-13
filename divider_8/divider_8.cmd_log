@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/vhdl/divider_8/divider_8.xst" -ofn "D:/vhdl/divider_8/divider_8.syr" 
+xst -intstyle ise -ifn "D:/vhdl/divider_8/divider_8.xst" -ofn "D:/vhdl/divider_8/divider_8.syr" 
+xst -intstyle ise -ifn "D:/vhdl/divider_8/divider_8.xst" -ofn "D:/vhdl/divider_8/divider_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 divider_8.ngc divider_8.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o divider_8_map.ncd divider_8.ngd divider_8.pcf 
+par -w -intstyle ise -ol high -t 1 divider_8_map.ncd divider_8.ncd divider_8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider_8.twx divider_8.ncd -o divider_8.twr divider_8.pcf 

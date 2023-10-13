@@ -1,0 +1,1 @@
+vhdtdtfi -prj COMPARATOR -o D:/vhdl/COMPARATOR/comparator1bit.vhi -module comparator1bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work comparator1bit.vhd 

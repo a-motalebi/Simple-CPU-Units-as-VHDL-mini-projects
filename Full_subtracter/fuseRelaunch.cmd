@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/Full_subtracter/S1bit_tb_isim_beh.exe" -prj "D:/vhdl/Full_subtracter/S1bit_tb_beh.prj" "work.S1bit_tb" 

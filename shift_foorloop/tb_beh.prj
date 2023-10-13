@@ -1,0 +1,2 @@
+vhdl work "shift_foorloop.vhd"
+vhdl work "tb.vhd"

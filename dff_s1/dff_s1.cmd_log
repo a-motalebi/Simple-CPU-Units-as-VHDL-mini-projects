@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/vhdl/dff_s1/dff_s1.xst" -ofn "D:/vhdl/dff_s1/dff_s1.syr" 
+xst -intstyle ise -ifn "D:/vhdl/dff_s1/dff_s1.xst" -ofn "D:/vhdl/dff_s1/dff_s1.syr" 
+xst -intstyle ise -ifn "D:/vhdl/dff_s1/dff_s1.xst" -ofn "D:/vhdl/dff_s1/dff_s1.syr" 
+xst -intstyle ise -ifn "D:/vhdl/dff_s1/dff_s1.xst" -ofn "D:/vhdl/dff_s1/dff_s1.syr" 

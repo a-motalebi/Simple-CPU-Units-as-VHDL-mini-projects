@@ -1,0 +1,2 @@
+vhdl work "shift_reg_s1.vhd"
+vhdl work "shift_reg_s1_tb.vhd"

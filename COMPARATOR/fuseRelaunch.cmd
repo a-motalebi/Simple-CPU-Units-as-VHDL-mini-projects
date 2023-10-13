@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/COMPARATOR/comparator5bit_tb_isim_beh.exe" -prj "D:/vhdl/COMPARATOR/comparator5bit_tb_beh.prj" "work.comparator5bit_tb" 

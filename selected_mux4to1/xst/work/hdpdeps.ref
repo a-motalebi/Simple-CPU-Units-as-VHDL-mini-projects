@@ -1,0 +1,7 @@
+V3 3
+FL D:/vhdl/selected_mux4to1/selsected_mux4to1.vhd 2020/10/16.19:17:49 P.20131013
+EN work/selsected_mux4to1 1602863273 \
+      FL D:/vhdl/selected_mux4to1/selsected_mux4to1.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/selsected_mux4to1/Behavioral 1602863274 \
+      FL D:/vhdl/selected_mux4to1/selsected_mux4to1.vhd EN work/selsected_mux4to1 1602863273

@@ -1,0 +1,3 @@
+vhdl isim_temp "ipcore_dir/My_IPdiv.vhd"
+vhdl isim_temp "divider_IPCore.vhd"
+vhdl isim_temp "tb.vhd"

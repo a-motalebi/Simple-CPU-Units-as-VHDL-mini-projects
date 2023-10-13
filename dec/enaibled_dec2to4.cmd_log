@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/vhdl/dec/enaibled_dec2to4.xst" -ofn "D:/vhdl/dec/enaibled_dec2to4.syr" 
+xst -intstyle ise -ifn "D:/vhdl/dec/enaibled_dec2to4.xst" -ofn "D:/vhdl/dec/enaibled_dec2to4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 enaibled_dec2to4.ngc enaibled_dec2to4.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o enaibled_dec2to4_map.ncd enaibled_dec2to4.ngd enaibled_dec2to4.pcf 
+par -w -intstyle ise -ol high -t 1 enaibled_dec2to4_map.ncd enaibled_dec2to4.ncd enaibled_dec2to4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml enaibled_dec2to4.twx enaibled_dec2to4.ncd -o enaibled_dec2to4.twr enaibled_dec2to4.pcf 

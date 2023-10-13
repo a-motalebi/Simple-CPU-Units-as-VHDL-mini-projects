@@ -1,0 +1,5 @@
+set -tmpdir "D:/vhdl/COMPARATOR/xst/projnav.tmp"
+set -xsthdpdir "D:/vhdl/COMPARATOR/xst"
+elaborate
+-ifn comparator1bit.prj
+-ifmt mixed

@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/counter/counter.vhd 2020/11/05.02:41:46 P.20131013
+EN work/counter 1604531515 FL D:/vhdl/counter/counter.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/counter/Behavioral 1604531516 \
+      FL D:/vhdl/counter/counter.vhd EN work/counter 1604531515

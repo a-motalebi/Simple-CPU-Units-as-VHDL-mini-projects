@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/ddivider/divider_5.vhd 2020/11/11.11:02:41 P.20131013
+EN work/divider_5 1605460392 FL D:/vhdl/ddivider/divider_5.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/divider_5/Behavioral 1605460393 \
+      FL D:/vhdl/ddivider/divider_5.vhd EN work/divider_5 1605460392

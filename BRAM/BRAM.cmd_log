@@ -1,0 +1,3 @@
+vhdtdtfi -prj BRAM -o D:/vhdl/BRAM/BRAM.vhi -module BRAM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work BRAM.vhd 
+vhdtdtfi -prj BRAM -o D:/vhdl/BRAM/BRAM.vhi -module BRAM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work BRAM.vhd 
+vhdtdtfi -prj BRAM -o D:/vhdl/BRAM/BRAM.vhi -module BRAM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work BRAM.vhd 

@@ -1,0 +1,2 @@
+vhdl isim_temp "fsm_alarm.vhd"
+vhdl isim_temp "tb.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/clocdivider_class/tb_isim_beh.exe" -prj "D:/vhdl/clocdivider_class/tb_beh.prj" "work.tb" 

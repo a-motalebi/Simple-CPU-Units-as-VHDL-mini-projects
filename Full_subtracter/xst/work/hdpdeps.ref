@@ -1,0 +1,11 @@
+V3 7
+FL D:/vhdl/Full_subtracter/S1bit.vhd 2020/10/07.21:23:46 P.20131013
+EN work/S1bit 1602094489 FL D:/vhdl/Full_subtracter/S1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/S1bit/Behavioral 1602094490 \
+      FL D:/vhdl/Full_subtracter/S1bit.vhd EN work/S1bit 1602094489
+FL D:/vhdl/Full_subtracter/S4bit.vhd 2020/10/07.21:44:40 P.20131013
+EN work/S4bit 1602094491 FL D:/vhdl/Full_subtracter/S4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/S4bit/Behavioral 1602094492 \
+      FL D:/vhdl/Full_subtracter/S4bit.vhd EN work/S4bit 1602094491 CP S1bit

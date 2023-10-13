@@ -1,0 +1,4 @@
+AR bram behavioral D:/vhdl/BRAM/BRAM.vhd sub00/vhpl01 1606419375
+EN example_ram NULL D:/vhdl/BRAM/example_ram.vhd sub00/vhpl02 1606419376
+EN bram NULL D:/vhdl/BRAM/BRAM.vhd sub00/vhpl00 1606419374
+AR example_ram behavioral D:/vhdl/BRAM/example_ram.vhd sub00/vhpl03 1606419377

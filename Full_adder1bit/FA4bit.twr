@@ -1,0 +1,92 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml FA4bit.twx FA4bit.ncd -o FA4bit.twr FA4bit.pcf
+
+Design file:              FA4bit.ncd
+Physical constraint file: FA4bit.pcf
+Device,package,speed:     xc3s400,pq208,-4 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Cout           |   10.594|
+A<0>           |Sum<0>         |    8.621|
+A<0>           |Sum<1>         |    8.746|
+A<0>           |Sum<2>         |    9.840|
+A<0>           |Sum<3>         |   10.580|
+A<1>           |Cout           |   10.212|
+A<1>           |Sum<1>         |    8.021|
+A<1>           |Sum<2>         |    9.458|
+A<1>           |Sum<3>         |   10.198|
+A<2>           |Cout           |    9.269|
+A<2>           |Sum<2>         |    8.637|
+A<2>           |Sum<3>         |    9.255|
+A<3>           |Cout           |    8.876|
+A<3>           |Sum<3>         |    7.773|
+B<0>           |Cout           |   10.598|
+B<0>           |Sum<0>         |    8.601|
+B<0>           |Sum<1>         |    8.750|
+B<0>           |Sum<2>         |    9.844|
+B<0>           |Sum<3>         |   10.584|
+B<1>           |Cout           |   10.580|
+B<1>           |Sum<1>         |    8.317|
+B<1>           |Sum<2>         |    9.826|
+B<1>           |Sum<3>         |   10.566|
+B<2>           |Cout           |    9.192|
+B<2>           |Sum<2>         |    8.878|
+B<2>           |Sum<3>         |    9.178|
+B<3>           |Cout           |    8.915|
+B<3>           |Sum<3>         |    7.615|
+Cin            |Cout           |   10.710|
+Cin            |Sum<0>         |    8.400|
+Cin            |Sum<1>         |    8.862|
+Cin            |Sum<2>         |    9.956|
+Cin            |Sum<3>         |   10.696|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Oct 04 00:16:39 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4492 MB
+
+
+

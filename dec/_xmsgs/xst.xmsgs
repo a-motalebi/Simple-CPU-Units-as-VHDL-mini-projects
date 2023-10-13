@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="850" delta="old" >&quot;<arg fmt="%s" index="1">D:/vhdl/dec/dec4to16.vhd</arg>&quot; Line <arg fmt="%d" index="2">50</arg>. Formal port <arg fmt="%s" index="3">il</arg> does not exist in <arg fmt="%s" index="4">Component &apos;enaibled_dec2to4&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="old" >&quot;<arg fmt="%s" index="1">D:/vhdl/dec/dec4to16.vhd</arg>&quot; Line <arg fmt="%d" index="2">50</arg>. Formal port <arg fmt="%s" index="3">il</arg> does not exist in <arg fmt="%s" index="4">Component &apos;enaibled_dec2to4&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="old" >&quot;<arg fmt="%s" index="1">D:/vhdl/dec/dec4to16.vhd</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. Formal port <arg fmt="%s" index="3">il</arg> does not exist in <arg fmt="%s" index="4">Component &apos;enaibled_dec2to4&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="old" >&quot;<arg fmt="%s" index="1">D:/vhdl/dec/dec4to16.vhd</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. Formal port <arg fmt="%s" index="3">il</arg> does not exist in <arg fmt="%s" index="4">Component &apos;enaibled_dec2to4&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="old" >&quot;<arg fmt="%s" index="1">D:/vhdl/dec/dec4to16.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Formal port <arg fmt="%s" index="3">il</arg> does not exist in <arg fmt="%s" index="4">Component &apos;enaibled_dec2to4&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="old" >&quot;<arg fmt="%s" index="1">D:/vhdl/dec/dec4to16.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Formal port <arg fmt="%s" index="3">il</arg> does not exist in <arg fmt="%s" index="4">Component &apos;enaibled_dec2to4&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="old" >&quot;<arg fmt="%s" index="1">D:/vhdl/dec/dec4to16.vhd</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. Formal port <arg fmt="%s" index="3">il</arg> does not exist in <arg fmt="%s" index="4">Component &apos;enaibled_dec2to4&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="old" >&quot;<arg fmt="%s" index="1">D:/vhdl/dec/dec4to16.vhd</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. Formal port <arg fmt="%s" index="3">il</arg> does not exist in <arg fmt="%s" index="4">Component &apos;enaibled_dec2to4&apos;</arg>.
+</msg>
+
+</messages>
+

@@ -1,0 +1,28 @@
+Command line:
+   dec4to16tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56165
+
+Fri Jul 17 16:07:40 2020
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5164.94 Meg
+
+ Total Signals          : 19
+ Total Nets             : 24
+ Total Signal Drivers   : 18
+ Total Blocks           : 8
+ Total Primitive Blocks : 6
+ Total Processes        : 18
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 384
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5164.94 Meg
+
+Fri Jul 17 16:07:52 2020
+

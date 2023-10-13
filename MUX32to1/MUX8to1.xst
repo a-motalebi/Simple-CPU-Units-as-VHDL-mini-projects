@@ -1,0 +1,5 @@
+set -tmpdir "D:/vhdl/MUX32to1/xst/projnav.tmp"
+set -xsthdpdir "D:/vhdl/MUX32to1/xst"
+elaborate
+-ifn MUX8to1.prj
+-ifmt mixed

@@ -1,0 +1,18 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "D:/vhdl/dff_s1/tb1_isim_beh.exe" -prj "D:/vhdl/dff_s1/tb1_beh.prj" "work.tb1" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/vhdl/dff_s1/dff_s1.vhd" into library work
+Parsing VHDL file "D:/vhdl/dff_s1/tb1.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity dff_s1 [dff_s1_default]
+Compiling architecture behavior of entity tb1
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable D:/vhdl/dff_s1/tb1_isim_beh.exe
+Fuse Memory Usage: 29464 KB
+Fuse CPU Usage: 343 ms

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/vhdl/shift_foorloop/shift_foorloop.xst" -ofn "D:/vhdl/shift_foorloop/shift_foorloop.syr" 
+xst -intstyle ise -ifn "D:/vhdl/shift_foorloop/shift_foorloop.xst" -ofn "D:/vhdl/shift_foorloop/shift_foorloop.syr" 

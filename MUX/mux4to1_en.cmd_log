@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/vhdl/MUX/mux4to1_en.xst" -ofn "D:/vhdl/MUX/mux4to1_en.syr" 

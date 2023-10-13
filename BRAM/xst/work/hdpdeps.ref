@@ -1,0 +1,11 @@
+V3 7
+FL D:/vhdl/BRAM/BRAM.vhd 2020/11/25.11:05:43 P.20131013
+EN work/BRAM 1606419374 FL D:/vhdl/BRAM/BRAM.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/BRAM/Behavioral 1606419375 \
+      FL D:/vhdl/BRAM/BRAM.vhd EN work/BRAM 1606419374
+FL D:/vhdl/BRAM/example_ram.vhd 2020/11/25.11:00:59 P.20131013
+EN work/example_ram 1606419376 FL D:/vhdl/BRAM/example_ram.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/example_ram/Behavioral 1606419377 \
+      FL D:/vhdl/BRAM/example_ram.vhd EN work/example_ram 1606419376 CP work/BRAM

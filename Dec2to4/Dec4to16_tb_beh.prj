@@ -1,0 +1,3 @@
+vhdl work "Dec2to4.vhd"
+vhdl work "dec4to16.vhd"
+vhdl work "Dec4to16_tb.vhd"

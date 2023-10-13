@@ -1,0 +1,1 @@
+vhdtdtfi -prj Fukk_adder1bit -o D:/vhdl/Fukk_adder1bit/FA1bit.vhi -module FA1bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work FA1bit.vhd 

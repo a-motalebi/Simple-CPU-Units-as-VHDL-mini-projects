@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/vhdl/ddivider/divider_5.xst" -ofn "D:/vhdl/ddivider/divider_5.syr" 

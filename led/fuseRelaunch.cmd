@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/led/led_tb_isim_beh.exe" -prj "D:/vhdl/led/led_tb_beh.prj" "work.led_tb" 

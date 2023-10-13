@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/vhdl/seven_segment/seven_segment.xst" -ofn "D:/vhdl/seven_segment/seven_segment.syr" 

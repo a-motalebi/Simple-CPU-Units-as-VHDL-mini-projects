@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/vhdl/Fukk_adder1bit/FA4bit.xst" -ofn "D:/vhdl/Fukk_adder1bit/FA4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 FA4bit.ngc FA4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o FA4bit_map.ncd FA4bit.ngd FA4bit.pcf 
+par -w -intstyle ise -ol high -t 1 FA4bit_map.ncd FA4bit.ncd FA4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA4bit.twx FA4bit.ncd -o FA4bit.twr FA4bit.pcf 
+xst -intstyle ise -ifn "D:/vhdl/Fukk_adder1bit/FA4bit.xst" -ofn "D:/vhdl/Fukk_adder1bit/FA4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 FA4bit.ngc FA4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o FA4bit_map.ncd FA4bit.ngd FA4bit.pcf 
+par -w -intstyle ise -ol high -t 1 FA4bit_map.ncd FA4bit.ncd FA4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA4bit.twx FA4bit.ncd -o FA4bit.twr FA4bit.pcf 

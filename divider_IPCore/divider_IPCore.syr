@@ -1,0 +1,396 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: divider_IPCore.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "divider_IPCore.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "divider_IPCore"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-pq208
+
+---- Source Options
+Top Module Name                    : divider_IPCore
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3498 - No primary, secondary unit in the file "D:/vhdl/divider_IPCore/ipcore_dir/My_IPdiv.vhd. Ignore this file from project file "D:/vhdl/divider_IPCore/divider_IPCore_vhdl.prj".
+Compiling vhdl file "D:/vhdl/divider_IPCore/divider_IPCore.vhd" in Library work.
+Entity <divider_ipcore> compiled.
+Entity <divider_IPCore> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <divider_IPCore> in library <work> (architecture <Behavioral>) with generics.
+	N = 16
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <divider_IPCore> in library <work> (Architecture <Behavioral>).
+	N = 16
+WARNING:Xst:753 - "D:/vhdl/divider_IPCore/divider_IPCore.vhd" line 28: Unconnected output port 'rfd' of component 'My_IPdiv'.
+WARNING:Xst:2211 - "D:/vhdl/divider_IPCore/divider_IPCore.vhd" line 28: Instantiating black box module <My_IPdiv>.
+Entity <divider_IPCore> analyzed. Unit <divider_IPCore> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <divider_IPCore>.
+    Related source file is "D:/vhdl/divider_IPCore/divider_IPCore.vhd".
+Unit <divider_IPCore> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/My_IPdiv.ngc>.
+Loading core <My_IPdiv> for timing and area information for instance <IP_div1>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <divider_IPCore> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block divider_IPCore, actual ratio is 13.
+INFO:Xst:2260 - The FF/Latch <blk0000004a> in Unit <blk00000003> is equivalent to the following FF/Latch : <blk00000781> 
+INFO:Xst:2260 - The FF/Latch <blk0000004a> in Unit <blk00000003> is equivalent to the following FF/Latch : <blk00000781> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : divider_IPCore.ngr
+Top Level Output File Name         : divider_IPCore
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 65
+
+Cell Usage :
+# BELS                             : 1105
+#      GND                         : 1
+#      INV                         : 45
+#      LUT1                        : 1
+#      LUT2                        : 67
+#      LUT3                        : 270
+#      LUT4                        : 1
+#      MULT_AND                    : 17
+#      MUXCY                       : 349
+#      VCC                         : 1
+#      XORCY                       : 353
+# FlipFlops/Latches                : 877
+#      FD                          : 877
+# Shift Registers                  : 34
+#      SRL16                       : 34
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 64
+#      IBUF                        : 32
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of Slices:                      498  out of   3584    13%  
+ Number of Slice Flip Flops:            877  out of   7168    12%  
+ Number of 4 input LUTs:                418  out of   7168     5%  
+    Number used as logic:               384
+    Number used as Shift registers:      34
+ Number of IOs:                          65
+ Number of bonded IOBs:                  65  out of    141    46%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 911   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.660ns (Maximum Frequency: 150.150MHz)
+   Minimum input arrival time before clock: 7.198ns
+   Maximum output required time after clock: 7.165ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.660ns (frequency: 150.150MHz)
+  Total number of paths / destination ports: 12509 / 877
+-------------------------------------------------------------------------
+Delay:               6.660ns (Levels of Logic = 18)
+  Source:            IP_div1/blk00000003/blk000007b2 (FF)
+  Destination:       IP_div1/blk00000003/blk000005f1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: IP_div1/blk00000003/blk000007b2 to IP_div1/blk00000003/blk000005f1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              16   0.720   1.432  blk000007b2 (sig000007ee)
+     LUT2:I1->O            2   0.551   0.903  blk00000631 (sig000007bc)
+     LUT4:I3->O            1   0.551   0.000  blk00000772 (sig000007ba)
+     MUXCY:S->O            1   0.500   0.000  blk000005f0 (sig000007b7)
+     MUXCY:CI->O           1   0.064   0.000  blk000005ee (sig000007b4)
+     MUXCY:CI->O           1   0.064   0.000  blk000005ec (sig000007b1)
+     MUXCY:CI->O           1   0.064   0.000  blk000005ea (sig000007ae)
+     MUXCY:CI->O           1   0.064   0.000  blk000005e8 (sig000007ab)
+     MUXCY:CI->O           1   0.064   0.000  blk000005e6 (sig000007a8)
+     MUXCY:CI->O           1   0.064   0.000  blk000005e4 (sig000007a5)
+     MUXCY:CI->O           1   0.064   0.000  blk000005e2 (sig000007a2)
+     MUXCY:CI->O           1   0.064   0.000  blk000005e0 (sig0000079f)
+     MUXCY:CI->O           1   0.064   0.000  blk000005de (sig0000079c)
+     MUXCY:CI->O           1   0.064   0.000  blk000005dc (sig00000799)
+     MUXCY:CI->O           1   0.064   0.000  blk000005da (sig00000796)
+     MUXCY:CI->O           1   0.064   0.000  blk000005d8 (sig00000793)
+     MUXCY:CI->O           1   0.064   0.000  blk000005d6 (sig00000790)
+     MUXCY:CI->O           0   0.064   0.000  blk000005d4 (sig0000078d)
+     XORCY:CI->O           1   0.904   0.000  blk000005d2 (sig0000078f)
+     FD:D                      0.203          blk000005f1
+    ----------------------------------------
+    Total                      6.660ns (4.325ns logic, 2.335ns route)
+                                       (64.9% logic, 35.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 604 / 34
+-------------------------------------------------------------------------
+Offset:              7.198ns (Levels of Logic = 20)
+  Source:            dividend_top<15> (PAD)
+  Destination:       IP_div1/blk00000003/blk000007af (FF)
+  Destination Clock: clk rising
+
+  Data Path: dividend_top<15> to IP_div1/blk00000003/blk000007af
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   0.821   1.540  dividend_top_15_IBUF (dividend_top_15_IBUF)
+     begin scope: 'IP_div1'
+     begin scope: 'blk00000003'
+     LUT2:I1->O            1   0.551   0.996  blk00000632 (sig00000076)
+     LUT2:I1->O            1   0.551   0.000  blk00000029 (sig00000074)
+     MUXCY:S->O            1   0.500   0.000  blk00000028 (sig00000071)
+     MUXCY:CI->O           1   0.064   0.000  blk00000026 (sig0000006e)
+     MUXCY:CI->O           1   0.064   0.000  blk00000024 (sig0000006b)
+     MUXCY:CI->O           1   0.064   0.000  blk00000022 (sig00000068)
+     MUXCY:CI->O           1   0.064   0.000  blk00000020 (sig00000065)
+     MUXCY:CI->O           1   0.064   0.000  blk0000001e (sig00000062)
+     MUXCY:CI->O           1   0.064   0.000  blk0000001c (sig0000005f)
+     MUXCY:CI->O           1   0.064   0.000  blk0000001a (sig0000005c)
+     MUXCY:CI->O           1   0.064   0.000  blk00000018 (sig00000059)
+     MUXCY:CI->O           1   0.064   0.000  blk00000016 (sig00000056)
+     MUXCY:CI->O           1   0.064   0.000  blk00000014 (sig00000053)
+     MUXCY:CI->O           1   0.064   0.000  blk00000012 (sig00000050)
+     MUXCY:CI->O           1   0.064   0.000  blk00000010 (sig0000004d)
+     MUXCY:CI->O           1   0.064   0.000  blk0000000e (sig0000004a)
+     MUXCY:CI->O           0   0.064   0.000  blk0000000c (sig00000048)
+     XORCY:CI->O           1   0.904   0.000  blk0000000a (sig00000049)
+     SRL16:D                   0.439          blk000007af
+    ----------------------------------------
+    Total                      7.198ns (4.662ns logic, 2.536ns route)
+                                       (64.8% logic, 35.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 2)
+  Source:            IP_div1/blk00000003/blk000005f1 (FF)
+  Destination:       quotient_top<15> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: IP_div1/blk00000003/blk000005f1 to quotient_top<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.720   0.801  blk000005f1 (quotient(15))
+     end scope: 'blk00000003'
+     end scope: 'IP_div1'
+     OBUF:I->O                 5.644          quotient_top_15_OBUF (quotient_top<15>)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.98 secs
+ 
+--> 
+
+Total memory usage is 4523212 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

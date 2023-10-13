@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/vhdl/binary_divider/binary_divider.xst" -ofn "D:/vhdl/binary_divider/binary_divider.syr" 

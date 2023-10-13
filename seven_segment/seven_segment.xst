@@ -1,0 +1,5 @@
+set -tmpdir "D:/vhdl/seven_segment/xst/projnav.tmp"
+set -xsthdpdir "D:/vhdl/seven_segment/xst"
+elaborate
+-ifn seven_segment.prj
+-ifmt mixed

@@ -1,0 +1,387 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: example_ram.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "example_ram.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "example_ram"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-pq208
+
+---- Source Options
+Top Module Name                    : example_ram
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/vhdl/BRAM/BRAM.vhd" in Library work.
+Entity <bram> compiled.
+Entity <bram> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/vhdl/BRAM/example_ram.vhd" in Library work.
+Entity <example_ram> compiled.
+Entity <example_ram> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <example_ram> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <BRAM> in library <work> (architecture <Behavioral>) with generics.
+	RAM_addr_width = 8
+	RAM_width = 10
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <example_ram> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <WE_int> in unit <example_ram> has a constant value of 1 during circuit operation. The register is replaced by logic.
+Entity <example_ram> analyzed. Unit <example_ram> generated.
+
+Analyzing generic Entity <BRAM> in library <work> (Architecture <Behavioral>).
+	RAM_addr_width = 8
+	RAM_width = 10
+Entity <BRAM> analyzed. Unit <BRAM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <BRAM>.
+    Related source file is "D:/vhdl/BRAM/BRAM.vhd".
+WARNING:Xst:647 - Input <read_addr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 256x10-bit single-port RAM <Mram_memory_signal> for signal <memory_signal>.
+    Found 10-bit register for signal <data_out>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  10 D-type flip-flop(s).
+Unit <BRAM> synthesized.
+
+
+Synthesizing Unit <example_ram>.
+    Related source file is "D:/vhdl/BRAM/example_ram.vhd".
+    Register <write_addr_int> equivalent to <read_addr_int> has been removed
+    Found 8-bit up counter for signal <counter>.
+    Found 10-bit register for signal <data_in_int>.
+    Found 8-bit register for signal <read_addr_int>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  18 D-type flip-flop(s).
+Unit <example_ram> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x10-bit single-port RAM                            : 1
+# Counters                                             : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 3
+ 10-bit register                                       : 2
+ 8-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1293 - FF/Latch <data_in_int_8> has a constant value of 0 in block <example_ram>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <data_in_int_9> has a constant value of 0 in block <example_ram>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <example_ram>.
+INFO:Xst:3226 - The RAM <Inst_BRAM/Mram_memory_signal> will be implemented as a BLOCK RAM, absorbing the following register(s): <Inst_BRAM/data_out>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 10-bit                   |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clock>         | rise     |
+    |     weA            | connected to signal <VCC>           | high     |
+    |     addrA          | connected to signal <read_addr_int> |          |
+    |     diA            | connected to signal <data_in_int>   |          |
+    |     doA            | connected to signal <outcome>       |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <example_ram> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x10-bit single-port block RAM                      : 1
+# Counters                                             : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <data_in_int_8> has a constant value of 0 in block <example_ram>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <data_in_int_9> has a constant value of 0 in block <example_ram>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <read_addr_int_0> in Unit <example_ram> is equivalent to the following FF/Latch, which will be removed : <data_in_int_0> 
+INFO:Xst:2261 - The FF/Latch <read_addr_int_1> in Unit <example_ram> is equivalent to the following FF/Latch, which will be removed : <data_in_int_1> 
+INFO:Xst:2261 - The FF/Latch <read_addr_int_2> in Unit <example_ram> is equivalent to the following FF/Latch, which will be removed : <data_in_int_2> 
+INFO:Xst:2261 - The FF/Latch <read_addr_int_3> in Unit <example_ram> is equivalent to the following FF/Latch, which will be removed : <data_in_int_3> 
+INFO:Xst:2261 - The FF/Latch <read_addr_int_4> in Unit <example_ram> is equivalent to the following FF/Latch, which will be removed : <data_in_int_4> 
+INFO:Xst:2261 - The FF/Latch <read_addr_int_5> in Unit <example_ram> is equivalent to the following FF/Latch, which will be removed : <data_in_int_5> 
+INFO:Xst:2261 - The FF/Latch <read_addr_int_6> in Unit <example_ram> is equivalent to the following FF/Latch, which will be removed : <data_in_int_6> 
+INFO:Xst:2261 - The FF/Latch <read_addr_int_7> in Unit <example_ram> is equivalent to the following FF/Latch, which will be removed : <data_in_int_7> 
+
+Optimizing unit <example_ram> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block example_ram, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : example_ram.ngr
+Top Level Output File Name         : example_ram
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 26
+#      GND                         : 2
+#      INV                         : 1
+#      LUT1                        : 7
+#      MUXCY                       : 7
+#      VCC                         : 1
+#      XORCY                       : 8
+# FlipFlops/Latches                : 16
+#      FD                          : 16
+# RAMS                             : 1
+#      RAMB16                      : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of Slices:                        8  out of   3584     0%  
+ Number of Slice Flip Flops:             16  out of   7168     0%  
+ Number of 4 input LUTs:                  8  out of   7168     0%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    141     7%  
+ Number of BRAMs:                         1  out of     16     6%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 17    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.414ns (Maximum Frequency: 226.552MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 4.414ns (frequency: 226.552MHz)
+  Total number of paths / destination ports: 60 / 32
+-------------------------------------------------------------------------
+Delay:               4.414ns (Levels of Logic = 8)
+  Source:            counter_1 (FF)
+  Destination:       counter_7 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: counter_1 to counter_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.720   1.216  counter_1 (counter_1)
+     LUT1:I0->O            1   0.551   0.000  Mcount_counter_cy<1>_rt (Mcount_counter_cy<1>_rt)
+     MUXCY:S->O            1   0.500   0.000  Mcount_counter_cy<1> (Mcount_counter_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_counter_cy<2> (Mcount_counter_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_counter_cy<3> (Mcount_counter_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_counter_cy<4> (Mcount_counter_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_counter_cy<5> (Mcount_counter_cy<5>)
+     MUXCY:CI->O           0   0.064   0.000  Mcount_counter_cy<6> (Mcount_counter_cy<6>)
+     XORCY:CI->O           1   0.904   0.000  Mcount_counter_xor<7> (Result<7>)
+     FD:D                      0.203          counter_7
+    ----------------------------------------
+    Total                      4.414ns (3.198ns logic, 1.216ns route)
+                                       (72.5% logic, 27.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.96 secs
+ 
+--> 
+
+Total memory usage is 4523240 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
+

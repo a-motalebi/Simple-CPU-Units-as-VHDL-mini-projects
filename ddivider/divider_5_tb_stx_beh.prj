@@ -1,0 +1,2 @@
+vhdl isim_temp "divider_5.vhd"
+vhdl isim_temp "divider_5-tb.vhd"

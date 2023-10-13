@@ -1,0 +1,3 @@
+vhdl work "BRAM.vhd"
+vhdl work "example_ram.vhd"
+vhdl work "tb_example_ram.vhd"

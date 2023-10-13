@@ -1,0 +1,2 @@
+vhdl work "BRAM.vhd"
+vhdl work "example_ram.vhd"

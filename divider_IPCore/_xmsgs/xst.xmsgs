@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3498" delta="old" >No primary, secondary unit in the file &quot;<arg fmt="%s" index="1">D:/vhdl/divider_IPCore/ipcore_dir/My_IPdiv.vhd</arg>. Ignore this file from project file &quot;<arg fmt="%s" index="2">D:/vhdl/divider_IPCore/divider_IPCore_vhdl.prj</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/vhdl/divider_IPCore/divider_IPCore.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">rfd</arg>&apos; of component &apos;<arg fmt="%s" index="4">My_IPdiv</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">D:/vhdl/divider_IPCore/divider_IPCore.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">My_IPdiv</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">blk0000004a</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">blk00000003</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;blk00000781&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">blk0000004a</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">blk00000003</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;blk00000781&gt; </arg>
+</msg>
+
+</messages>
+

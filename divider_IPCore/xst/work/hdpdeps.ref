@@ -1,0 +1,7 @@
+V3 4
+FL D:/vhdl/divider_IPCore/divider_IPCore.vhd 2020/12/22.23:40:35 P.20131013
+EN work/divider_IPCore 1608667837 FL D:/vhdl/divider_IPCore/divider_IPCore.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/divider_IPCore/Behavioral 1608667838 \
+      FL D:/vhdl/divider_IPCore/divider_IPCore.vhd EN work/divider_IPCore 1608667837 \
+      CP My_IPdiv

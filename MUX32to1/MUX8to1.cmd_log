@@ -1,0 +1,1 @@
+vhdtdtfi -prj MUX32to1 -o D:/vhdl/MUX32to1/MUX8to1.vhi -module MUX8to1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MUX2to1.vhd -lib work MUX4to1.vhd -lib work MUX8to1.vhd 

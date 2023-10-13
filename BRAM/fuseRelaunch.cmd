@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/vhdl/BRAM/tb_example_ram_isim_beh.exe" -prj "D:/vhdl/BRAM/tb_example_ram_beh.prj" "work.tb_example_ram" 

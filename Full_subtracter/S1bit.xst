@@ -1,0 +1,5 @@
+set -tmpdir "D:/vhdl/Full_subtracter/xst/projnav.tmp"
+set -xsthdpdir "D:/vhdl/Full_subtracter/xst"
+elaborate
+-ifn S1bit.prj
+-ifmt mixed

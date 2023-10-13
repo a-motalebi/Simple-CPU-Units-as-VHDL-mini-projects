@@ -1,0 +1,11 @@
+V3 7
+FL D:/vhdl/Fukk_adder1bit/FA1bit.vhd 2020/09/30.11:36:31 P.20131013
+EN work/FA1bit 1601757980 FL D:/vhdl/Fukk_adder1bit/FA1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FA1bit/Behavioral 1601757981 \
+      FL D:/vhdl/Fukk_adder1bit/FA1bit.vhd EN work/FA1bit 1601757980
+FL D:/vhdl/Fukk_adder1bit/FA4bit.vhd 2020/09/30.11:34:45 P.20131013
+EN work/FA4bit 1601757982 FL D:/vhdl/Fukk_adder1bit/FA4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FA4bit/Behavioral 1601757983 \
+      FL D:/vhdl/Fukk_adder1bit/FA4bit.vhd EN work/FA4bit 1601757982 CP FA1bit
